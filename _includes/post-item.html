@@ -1,0 +1,14 @@
+<article class="post-item">
+  <time datetime="{{ include.post.date | date_to_xmlschema }}">{{ include.post.date | date: "%Y-%m-%d" }}</time>
+  <h3><a href="{{ include.post.url | relative_url }}">{{ include.post.title }}</a></h3>
+  {% if include.post.excerpt %}
+    <p>{{ include.post.excerpt | strip_html | truncate: 150 }}</p>
+  {% endif %}
+  {% if include.post.tags and include.post.tags.size > 0 %}
+    <ul class="tag-list" aria-label="Post tags">
+      {% for tag in include.post.tags %}
+        <li>{{ tag }}</li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+</article>

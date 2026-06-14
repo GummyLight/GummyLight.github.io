@@ -1,0 +1,70 @@
+# Site identity
+title: "Changjin Li"
+tagline: "Embodied Intelligence and Learning Notes"
+description: "Personal homepage and technical blog of Changjin Li, focused on embodied intelligence, computer vision, reinforcement learning, and software systems."
+lang: "en"
+timezone: "Asia/Shanghai"
+
+# Deployment
+# User site:  url: "https://yourname.github.io", baseurl: ""
+# Repository site: url: "https://yourname.github.io", baseurl: "/repository-name"
+url: ""
+baseurl: ""
+
+# Author profile
+author:
+  name: "Changjin Li"
+  role: "M.Sc. Student in Intelligent Science and Technology, Southeast University"
+  bio: "Master's student at the DEFENSE Group and PALM Lab, Southeast University, supervised by Professor Min-ling Zhang and Professor Shimin Di. Research interests primarily lie in embodied intelligence."
+  email: ""
+  avatar: "/assets/images/profile-photo.jpg"
+
+# Navigation
+navigation:
+  - name: "Home"
+    url: "/"
+  - name: "Blog"
+    url: "/blog/"
+  - name: "Archive"
+    url: "/archive/"
+  - name: "About"
+    url: "/about/"
+
+# Social links. Leave blank items empty or remove them.
+social:
+  github: ""
+  google_scholar: ""
+  orcid: ""
+  linkedin: ""
+  bilibili: ""
+  youtube: ""
+
+# Blog behavior
+permalink: "/blog/:title/"
+excerpt_separator: "<!-- more -->"
+future: false
+
+# Markdown and syntax highlighting
+markdown: kramdown
+kramdown:
+  input: GFM
+  math_engine: mathjax
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: "highlight"
+
+# Sass
+sass:
+  style: expanded
+
+# GitHub Pages supported plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Files not published into the built site
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - HOW_TO_USE.md

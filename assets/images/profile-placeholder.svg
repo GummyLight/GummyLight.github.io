@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="960" viewBox="0 0 960 960" role="img" aria-labelledby="title desc">
+  <title id="title">Profile placeholder</title>
+  <desc id="desc">A quiet placeholder image for a personal homepage.</desc>
+  <rect width="960" height="960" fill="#f4f1ec"/>
+  <circle cx="480" cy="355" r="142" fill="#d7dfd9"/>
+  <path d="M236 812c30-160 122-244 244-244s214 84 244 244" fill="#2f4a52"/>
+  <path d="M178 180h604" stroke="#c4b8a8" stroke-width="18" stroke-linecap="round"/>
+  <path d="M178 218h390" stroke="#c4b8a8" stroke-width="18" stroke-linecap="round" opacity=".55"/>
+</svg>
+

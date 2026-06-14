@@ -1,0 +1,18 @@
+<footer class="site-footer">
+  <p>&copy; {{ site.time | date: "%Y" }} {{ site.author.name }}.</p>
+  <div class="footer-links">
+    {% if site.author.email %}
+      <a href="mailto:{{ site.author.email }}">Email</a>
+    {% endif %}
+    {% if site.social.github %}
+      <a href="https://github.com/{{ site.social.github }}">GitHub</a>
+    {% endif %}
+    {% if site.social.google_scholar %}
+      <a href="https://scholar.google.com/citations?user={{ site.social.google_scholar }}">Scholar</a>
+    {% endif %}
+    {% if site.social.orcid %}
+      <a href="https://orcid.org/{{ site.social.orcid }}">ORCID</a>
+    {% endif %}
+  </div>
+</footer>
+

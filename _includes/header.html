@@ -1,0 +1,14 @@
+<header class="site-header">
+  <a class="brand" href="{{ '/' | relative_url }}">
+    <span data-en="{{ site.title }}" data-zh="李昶瑾">{{ site.title }}</span>
+    <small data-en="{{ site.tagline }}" data-zh="具身智能与学习笔记">{{ site.tagline }}</small>
+  </a>
+
+  <nav class="site-nav" aria-label="Primary navigation">
+    {% for item in site.navigation %}
+      {% assign item_url = item.url | relative_url %}
+      {% capture item_name_zh %}{% case item.name %}{% when "Home" %}首页{% when "Blog" %}博客{% when "Archive" %}归档{% when "About" %}关于{% else %}{{ item.name }}{% endcase %}{% endcapture %}
+      <a href="{{ item_url }}" data-en="{{ item.name }}" data-zh="{{ item_name_zh | strip }}" {% if page.url == item.url %}aria-current="page"{% endif %}>{{ item.name }}</a>
+    {% endfor %}
+  </nav>
+</header>

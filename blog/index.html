@@ -1,0 +1,16 @@
+---
+layout: page
+title: Blog
+permalink: /blog/
+---
+
+<div class="post-list">
+  {% if site.posts.size > 0 %}
+    {% for post in site.posts %}
+      {% include post-item.html post=post %}
+    {% endfor %}
+  {% else %}
+    <p class="muted">No posts yet. Add Markdown files to the <code>_posts</code> folder.</p>
+  {% endif %}
+</div>
+

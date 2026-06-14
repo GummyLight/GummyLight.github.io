@@ -1,0 +1,19 @@
+---
+layout: page
+title: Archive
+permalink: /archive/
+---
+
+{% if site.posts.size > 0 %}
+  <ol class="archive-list">
+    {% for post in site.posts %}
+      <li>
+        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ol>
+{% else %}
+  <p class="muted">No posts yet. Add Markdown files to the <code>_posts</code> folder.</p>
+{% endif %}
+

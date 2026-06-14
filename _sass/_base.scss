@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  color: $color-ink;
+  background: $color-paper;
+  font-family: $font-sans;
+  line-height: 1.7;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration-color: rgba($color-accent, .35);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
+  transition: color .18s ease, text-decoration-color .18s ease, background-color .18s ease;
+}
+
+a:hover {
+  color: $color-accent-dark;
+  text-decoration-color: $color-accent-dark;
+}
+
+code,
+pre {
+  font-family: $font-mono;
+}
+
+code {
+  padding: .12rem .3rem;
+  border-radius: 4px;
+  background: rgba($color-accent, .08);
+}
+
+pre {
+  overflow-x: auto;
+  padding: 1rem;
+  border: 1px solid $color-line;
+  border-radius: 8px;
+  background: #f8f7f3;
+}
+
+::selection {
+  background: rgba($color-accent, .18);
+}
+
