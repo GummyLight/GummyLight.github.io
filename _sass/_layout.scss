@@ -87,36 +87,6 @@
   animation: rise .5s ease .08s both;
 }
 
-[data-lang-panel][hidden] {
-  display: none !important;
-}
-
-.language-toggle {
-  display: inline-flex;
-  margin-bottom: 22px;
-  padding: 3px;
-  border: 1px solid $color-line;
-  border-radius: 7px;
-  background: rgba(#fff, .72);
-}
-
-.language-toggle button {
-  min-width: 58px;
-  min-height: 34px;
-  border: 0;
-  border-radius: 5px;
-  background: transparent;
-  color: $color-muted;
-  cursor: pointer;
-  font: inherit;
-  font-size: .9rem;
-}
-
-.language-toggle button[aria-pressed="true"] {
-  color: #fff;
-  background: $color-accent;
-}
-
 .hero h1,
 .page__header h1,
 .post__header h1 {
@@ -292,6 +262,42 @@
   margin-top: 2px;
   color: $color-muted;
   font-size: .9rem;
+}
+
+.award-list--inline {
+  display: grid;
+  gap: 12px;
+  margin: 0;
+  padding-left: 1.15rem;
+  list-style: disc;
+}
+
+.award-list--inline li {
+  margin: 0;
+  color: $color-ink;
+  font-size: clamp(1rem, 1.45vw, 1.18rem);
+  line-height: 1.55;
+}
+
+.award-list--inline time {
+  display: inline;
+  margin: 0 .35rem 0 0;
+  color: $color-ink;
+  font-size: inherit;
+  font-style: italic;
+  font-weight: 650;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.award-title {
+  display: inline;
+  color: $color-accent-dark;
+  font-weight: 720;
+  text-decoration: underline;
+  text-decoration-color: rgba($color-accent-dark, .55);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
 }
 
 .page,
