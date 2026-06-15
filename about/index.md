@@ -21,19 +21,21 @@ Bachelor's degree, 2022-2026. My coursework covered digital image processing, pr
 ## Honors and Awards
 
 <ul class="award-list award-list--inline">
-  <li><time>2025.10</time> <span class="award-title">Grand Prize</span>, "Challenge Cup" Chinese College Student Entrepreneurship Plan Competition | "挑战杯"全国大学生课外学术科技作品竞赛揭榜挂帅擂台赛特等奖</li>
-  <li><time>2025.07</time> <span class="award-title">First Prize</span>, Undergraduate Thesis Encouragement Program of JSIACS | 江苏省仪器仪表学会本科毕设激励计划一等奖</li>
-  <li><time>2025.06</time> <span class="award-title">Outstanding Undergraduate Thesis of Hohai University</span> | 河海大学本科优秀毕业论文</li>
-  <li><time>2025.06</time> <span class="award-title">Silver Medal</span>, Jiangsu Collegiate Programming Contest | 江苏省大学生程序设计竞赛银奖</li>
-  <li><time>2024.06</time> <span class="award-title">Top 100 Outstanding Students of Hohai University</span> | 河海大学海韵风华十杰百佳优秀学生</li>
-  <li><time>2024.04</time> <span class="award-title">Finalist Award</span>, Mathematical Contest in Modeling (MCM/ICM) | 美国大学生数学建模竞赛特等奖提名</li>
-  <li><time>2024.01</time> <span class="award-title">Bronze Medal</span>, ICPC Asia-East Continent Final Contest (EC-Final) | 国际大学生程序设计竞赛亚洲区决赛铜奖</li>
-  <li><time>2023.12</time> <span class="award-title">First Prize</span>, Global Campus AI Algorithm Elite Competition National Finals | 全球校园算法精英大赛全国总决赛一等奖</li>
-  <li><time>2023.12</time> <span class="award-title">Silver Medal</span>, ICPC Asia Regional Contest Jinan Site | 国际大学生程序设计竞赛亚洲区域赛济南站银奖</li>
-  <li><time>2023.10</time> <span class="award-title">Bronze Medal</span>, CCPC Qinhuangdao Site | 中国大学生程序设计竞赛国赛秦皇岛站铜奖</li>
-  <li><time>2023.10</time> <span class="award-title">Silver Medal</span>, ICPC Asia Regional Contest Xi'an Site | 国际大学生程序设计竞赛亚洲区域赛西安站银奖</li>
-  <li><time>2023.08</time> <span class="award-title">Silver Medal</span>, Jiangsu Collegiate Programming Contest | 江苏省大学生程序设计竞赛银奖</li>
-  <li><time>2022.04</time> <span class="award-title">Huawei Intelligent Base Scholarship</span> | 华为智能基座奖学金</li>
+  <li><time>2025</time> <span class="award-title">President Scholarship</span>, Southeast University | 东南大学校长奖学金</li>
+  <li><time>2025</time> <span class="award-title">Outstanding Student</span>, Southeast University | 东南大学三好学生</li>
+  <li><time>2025</time> <span class="award-title">Top Ten Volunteer</span>, Southeast University | 东南大学十佳志愿者</li>
+  <li><time>2025</time> <span class="award-title">Five-star Volunteer</span> | 五星级志愿者</li>
+  <li><time>2024</time> <span class="award-title">Outstanding Communist Youth League Cadre</span> | 优秀共青团干部</li>
+  <li><time>2024</time> <span class="award-title">National Scholarship</span> | 国家奖学金</li>
+  <li><time>2024</time> <span class="award-title">Outstanding Student Model</span>, Southeast University | 东南大学三好学生标兵</li>
+  <li><time>2024</time> <span class="award-title">Secai Southeast Scholarship</span> | 社彩东南奖学金</li>
+  <li><time>2024</time> <span class="award-title">Outstanding Volunteer</span> | 优秀志愿者</li>
+  <li><time>2024</time> <span class="award-title">Four-star Volunteer</span> | 四星级志愿者</li>
+  <li><time>2024</time> <span class="award-title">Individual Award for Social Work</span> | 社会工作单项奖</li>
+  <li><time>2024</time> <span class="award-title">Individual Award for Volunteer Service</span> | 志愿服务单项奖</li>
+  <li><time>2023</time> <span class="award-title">Outstanding Communist Youth League Member</span> | 优秀共青团员</li>
+  <li><time>2023</time> <span class="award-title">Individual Award for Literary and Artistic Activities</span> | 文艺活动单项奖</li>
+  <li><time>2023</time> <span class="award-title">Individual Award for Social Practice</span> | 社会实践单项奖</li>
 </ul>
 
 ## Beyond Coursework
