@@ -88,12 +88,19 @@
 }
 
 .hero h1,
-.page__header h1,
-.post__header h1 {
+.page__header h1 {
   margin: 0;
   font-family: $font-serif;
   font-size: clamp(2.6rem, 7vw, 5.6rem);
   line-height: 1;
+  letter-spacing: 0;
+}
+
+.post__header h1 {
+  margin: 0;
+  font-family: $font-serif;
+  font-size: clamp(2rem, 4.6vw, 3.4rem);
+  line-height: 1.08;
   letter-spacing: 0;
 }
 
@@ -308,7 +315,7 @@
 .page__header,
 .post__header {
   max-width: $content-width;
-  margin-bottom: 34px;
+  margin: 0 auto 34px;
 }
 
 .post-list {
@@ -361,6 +368,7 @@
 }
 
 .prose {
+  margin: 0 auto;
   font-size: 1.05rem;
 }
 
@@ -401,6 +409,8 @@
 }
 
 .post-nav {
+  max-width: $content-width;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   gap: 16px;
